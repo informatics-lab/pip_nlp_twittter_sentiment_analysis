@@ -1,0 +1,20 @@
+name: nlp
+channels:
+  - conda-forge
+dependencies:
+  - python=3.8
+  - jupyterlab
+  - ipywidgets
+  - ipykernel
+  - pandas
+  - numpy
+  - matplotlib
+  - scikit-learn=1.0
+  - pip
+  - spacy
+  - nltk
+  - gensim
+  - pip:
+    - emoji
+    - vaderSentiment
+    - pyLDAvis
