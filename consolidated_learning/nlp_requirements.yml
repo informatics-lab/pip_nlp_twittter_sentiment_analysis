@@ -14,6 +14,7 @@ dependencies:
   - spacy
   - nltk
   - gensim
+  - wordcloud
   - pip:
     - emoji
     - vaderSentiment
